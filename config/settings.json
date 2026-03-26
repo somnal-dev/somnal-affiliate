@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "id": "lifestyle",
+      "name": "생활용품",
+      "keywords": ["생활", "홈", "주방", "청소", "정리"],
+      "commissionRate": 0.03
+    },
+    {
+      "id": "electronics",
+      "name": "전자기기",
+      "keywords": ["전자", "가전", "테크", "무선", "블루투스"],
+      "commissionRate": 0.05
+    },
+    {
+      "id": "beauty",
+      "name": "뷰티",
+      "keywords": ["뷰티", "화장품", "스킨케어", "메이크업"],
+      "commissionRate": 0.08
+    },
+    {
+      "id": "kitchen",
+      "name": "주방용품",
+      "keywords": ["주방", "요리", "베이킹", "조리도구"],
+      "commissionRate": 0.04
+    },
+    {
+      "id": "pet",
+      "name": "펫용품",
+      "keywords": ["펫", "강아지", "고양이", "반려동물"],
+      "commissionRate": 0.06
+    }
+  ],
+  "hashtags": {
+    "base": ["#쿠팡추천", "#대박상품", "#생활꿀템"],
+    "lifestyle": ["#생활용품", "#홈데코", "#인테리어"],
+    "electronics": ["#전자기기", "#가전", "#테크"],
+    "beauty": ["#뷰티", "#화장품", "#스킨케어"],
+    "kitchen": ["#주방용품", "#요리", "#베이킹"],
+    "pet": ["#펫용품", "#강아지", "#고양이"]
+  },
+  "dmTemplates": [
+    {
+      "id": "default",
+      "template": "안녕하세요! 요청하신 상품 링크 보내드려요 🔗\n\n{product_url}\n\n좋은 하루 보내세요! 💕"
+    },
+    {
+      "id": "friendly",
+      "template": "아 진짜 이거 대박이죠!! 😆 링크 여기 있어요 👇\n\n{product_url}\n\n저도 써보고 너무 좋아서 추천드리는 거예요!"
+    },
+    {
+      "id": "minimal",
+      "template": "{product_url}"
+    }
+  ]
+}
